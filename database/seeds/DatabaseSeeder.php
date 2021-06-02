@@ -17,5 +17,5 @@ class DatabaseSeeder extends Seeder
            TaskSeeder::class,       
            ]);   
     }   
-}
+}   
       

@@ -3,7 +3,8 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use App\Task;
+use App\Location;   
 class Employee extends Model
 {
     protected $fillable = [

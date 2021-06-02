@@ -3,13 +3,13 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use App\Employee;   
 class Location extends Model
 {
     protected $fillable = [
-
-        'name',
-        'street'
+   
+        'state',
+        'street'   
     ];
 
     public function employees() {
